@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angga Restu Adi — Portofolio Operator &amp; Kendali Proses</title>
+  <meta name="description" content="Portofolio profesional Angga Restu Adi, seorang operator berdedikasi yang berfokus pada aktivitas operasional, efisiensi kerja, dan continuous improvement.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Pure CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Kanvas Latar Belakang & Gelembung Mengambang -->
+  <div id="bubble-container" class="bg-canvas" aria-hidden="true"></div>
+
+  <!-- Navigasi Mengambang di Bagian Atas (Top Navbar) -->
+  <nav class="top-nav glass-nav" aria-label="Navigasi Utama">
+    <!-- 1. Beranda -->
+    <a href="#home" class="top-nav-link active" aria-label="Beranda" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+      <span>Beranda</span>
+    </a>
+
+    <!-- 2. Tentang Saya -->
+    <a href="#about" class="top-nav-link" aria-label="Tentang Saya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+      <span>Tentang Saya</span>
+    </a>
+
+    <!-- 3. Proyek -->
+    <a href="#project" class="top-nav-link" aria-label="Proyek">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+      </svg>
+      <span>Proyek</span>
+    </a>
+
+    <!-- 4. Kontak -->
+    <a href="#contact" class="top-nav-link" aria-label="Kontak">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+      <span>Kontak</span>
+    </a>
+  </nav>
+
+  <!-- Wadah Aplikasi: Panel Glassmorphism Utama -->
+  <div class="app-container">
+    <main class="main-content glass-panel">
+
+   
+
+
+       
+      </header>
+
+      <!-- 1. BAGIAN BERANDA / HERO SECTION-->
+      <section id="home" class="hero-section" aria-label="Perkenalan">
+        <div class="hero-grid">
+          
+          <!-- Kolom Kiri: Tipografi, Pengenalan, dan Tombol Aksi -->
+          <div class="hero-left">
+            <div class="greeting-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+              </svg>
+              <span>Halo, Selamat Datang!</span>
+            </div>
+
+            <div>
+              <h1 class="hero-title">
+                Halo, Saya <span class="highlight-name">Angga Restu Adi</span>
+              </h1>
+              <div class="hero-subtitle">
+                <span>Operator</span>
+                <span class="separator">&middot;</span>
+                <span class="sub-focus">Operasional &amp; Kendali Proses</span>
+              </div>
+            </div>
+
+            <p class="hero-desc">
+              Seorang operator berdedikasi dan profesional yang berfokus pada aktivitas operasional, efisiensi kerja, dan pengembangan berkelanjutan.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#project" class="btn-primary">
+                <span>Jelajahi Portofolio</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+
+              <a href="#contact" class="btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Hubungi Saya</span>
+              </a>
+            </div>
+
+            <!-- Ikon Media Sosial -->
+            <div class="social-strip">
+              <p>Terhubung Dengan Saya</p>
+              <div class="social-icons">
+                <a href="https://github.com" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="LinkedIn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="Instagram">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </a>
+
+                <a href="mailto:angga.restu.adi@gmail.com" class="social-btn" aria-label="Email">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Foto Profil Persegi 1:1 -->
+          <div class="hero-right">
+            <div class="profile-card-wrapper">
+              <div class="profile-glow"></div>
+              <div class="profile-frame">
+                <img src="images/profile-restu.jpeg" alt="Foto Profil Angga Restu Adi" class="profile-img">
+                <div class="profile-status-badge">
+                  <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span>Operator Tersertifikasi</span>
+                  </div>
+                  <span class="status-role">Kesiapan Aktif</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section id="about" class="portfolio-section fade-in-section" aria-label="Tentang Angga Restu Adi">
+        <div class="section-header">
+          <span class="section-tag">Tinjauan Profil</span>
+          <h2 class="section-title">Tentang Saya &amp; Fokus Profesional</h2>
+          <p class="section-desc">Latar belakang profesional, integritas operasional, dan komitmen keandalan kerja.</p>
+        </div>
+
+        <!-- Kartu Pengenalan Diri & Jabatan -->
+        <div class="glass-card about-card">
+          <div class="about-header-row">
+            <div class="about-user-lockup">
+              <div class="about-avatar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3>Angga Restu Adi</h3>
+                <p>Pekerjaan Saat Ini: <strong style="color: var(--highlight);">Operator</strong></p>
+              </div>
+            </div>
+            <div style="font-size: 0.75rem; color: var(--text-soft); display: flex; align-items: center; gap: 0.4rem;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Berdedikasi &amp; Fokus Perbaikan Berkelanjutan</span>
+            </div>
+          </div>
+
+          <div class="about-bio-text">
+            <p>Profesional operasional yang berdedikasi dan berfokus pada keandalan sistem, disiplin prosedur operasional standar (SOP), serta optimalisasi proses kerja secara berkelanjutan di lingkungan industri berkinerja tinggi.</p>
+          </div>
+        </div>
+
+        <!-- Indikator Metrik Operasional Ringkas -->
+        <div class="metrics-grid">
+          <div class="glass-card metric-card">
+            <div class="metric-num">99.8%</div>
+            <div class="metric-label">Keandalan Shift</div>
+            <div class="metric-caption">Kepatuhan target</div>
+          </div>
+          <div class="glass-card metric-card">
+            <div class="metric-num">&lt; 3m</div>
+            <div class="metric-label">Waktu Respons</div>
+            <div class="metric-caption">Rata-rata penanganan</div>
+          </div>
+          <div class="glass-card metric-card">
+            <div class="metric-num">0</div>
+            <div class="metric-label">Insiden Kerja</div>
+            <div class="metric-caption">Komitmen nihil kecelakaan</div>
+          </div>
+          <div class="glass-card metric-card">
+            <div class="metric-num">100%</div>
+            <div class="metric-label">Kepatuhan SOP</div>
+            <div class="metric-caption">Pencatatan terverifikasi</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           3. BAGIAN PROYEK (PROJECT SECTION - 2 PROYEK PILIHAN)
+           ==================================================================== -->
+      <section id="project" class="portfolio-section fade-in-section" aria-label="Proyek">
+        <div class="section-header">
+          <span class="section-tag">Karya Operasional</span>
+          <h2 class="section-title">Proyek &amp; Studi Kasus Operasional</h2>
+          <p class="section-desc">Inisiatif optimalisasi alur kerja, pengawasan sistem otomasi, dan manajemen telemetri.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- PROYEK 1 -->
+          <article class="glass-card glass-card-hover project-card">
+            <div class="project-thumb-box">
+              <img src="images/project1.jpeg" alt="Optimalisasi Throughput Lini Otomasi" class="project-img">
+              <span class="project-category-tag">Otomasi</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-info">
+                <h3>Optimalisasi Throughput Lini Otomasi</h3>
+                <p>Stabilisasi alur kerja operasional dan pengurangan waktu siklus rutin pada sistem konveyor otomatis.</p>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span>Optimalisasi Siklus</span>
+                  <span>Standar Kerja (SOP)</span>
+                  <span>Titik Inspeksi Preventif</span>
+                </div>
+
+                <button type="button" class="btn-view-project" data-project-id="project-1">
+                  <span>Lihat Detail Proyek</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROYEK 2 -->
+          <article class="glass-card glass-card-hover project-card">
+            <div class="project-thumb-box">
+              <img src="images/project2.jpeg" alt="Monitoring Operasional & Telemetri SCADA" class="project-img">
+              <span class="project-category-tag">Kendali Proses</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-info">
+                <h3>Monitoring Operasional &amp; Telemetri SCADA</h3>
+                <p>Pengawasan telemetri multi-layar, penentuan prioritas alarm, dan protokol tanggap anomali cepat.</p>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span>Pengawasan SCADA</span>
+                  <span>Penanganan Telemetri</span>
+                  <span>Respons Cepat</span>
+                </div>
+
+                <button type="button" class="btn-view-project" data-project-id="project-2">
+                  <span>Lihat Detail Proyek</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           4. BAGIAN KONTAK (CONTACT SECTION)
+           ==================================================================== -->
+      <section id="contact" class="portfolio-section fade-in-section" aria-label="Kontak">
+        <div class="section-header">
+          <span class="section-tag">Hubungi Saya</span>
+          <h2 class="section-title">Mari Terhubung!</h2>
+          <p class="section-desc">Tertarik mendiskusikan alur kerja operasional, peluang kerja sama, atau konsultasi proses? Silakan kirim pesan atau hubungi langsung.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Kiri: Saluran Kontak Langsung -->
+          <div class="glass-card contact-info-card">
+            <h3 style="font-size: 1.1rem; color: #FFFFFF; display: flex; align-items: center; gap: 0.5rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+              <span>Saluran Kontak</span>
+            </h3>
+
+            <!-- Kotak Email Langsung dengan Tombol Salin -->
+            <div class="direct-email-box">
+              <div class="direct-email-top">
+                <span>Email Langsung</span>
+                <button type="button" class="btn-copy" id="copy-email-btn" title="Salin alamat email">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                  <span>Salin</span>
+                </button>
+              </div>
+              <a href="mailto:anggarestu479@gmail.com" class="direct-email-address">
+                anggarestu479@gmail.com
+              </a>
+            </div>
+
+            <!-- Detail Meta -->
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <div class="contact-meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Berbasis di Indonesia &middot; Terbuka untuk shift kerja onsite maupun remote</span>
+              </div>
+              <div class="contact-meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Biasanya membalas dalam waktu 24 jam</span>
+              </div>
+            </div>
+
+            <!-- Tautan Ikuti & Jaringan -->
+            <div style="padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+              <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); font-weight: 700; margin-bottom: 0.75rem;">
+                Ikuti &amp; Jaringan
+              </p>
+              <div class="social-icons">
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="LinkedIn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://github.com/AnggaRestu479" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                </a>
+                <a href="https://www.instagram.com/aanggarstu_/" target="_blank" rel="noreferrer noopener" class="social-btn" aria-label="Instagram">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                </a>
+                <a href="mailto:anggarestu479@gmail.com" class="social-btn" aria-label="Email">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kanan: Formulir Kirim Pesan Interaktif -->
+          <div class="glass-card contact-form-card">
+            <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.25rem;">Kirim Pesan</h3>
+            <p style="font-size: 0.8rem; color: var(--text-soft); margin-bottom: 1.25rem;">Isi formulir di bawah ini untuk memulai komunikasi langsung.</p>
+
+            <div id="form-alert" class="form-alert"></div>
+
+            <form id="contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="name">Nama Lengkap *</label>
+                  <input type="text" id="name" required class="form-control" placeholder="cth. Budi Santoso">
+                </div>
+                <div class="form-group">
+                  <label for="email">Alamat Email *</label>
+                  <input type="email" id="email" required class="form-control" placeholder="cth. budi@perusahaan.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subjek</label>
+                <input type="text" id="subject" class="form-control" placeholder="cth. Tawaran Pekerjaan / Konsultasi Operasional">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Pesan *</label>
+                <textarea id="message" required class="form-control" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn-primary" style="margin-top: 0.5rem; cursor: pointer;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Kirim Pesan</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Footer Wadah -->
+      <footer class="container-footer">
+        <div>
+          <strong style="color: #FFFFFF;">Angga Restu Adi</strong> &middot; Portofolio Operator &middot; &copy; 2026
+        </div>
+        <div>
+          <a href="#home" id="back-to-top" class="btn-back-top">
+            <span>Kembali ke Atas</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m18 15-6-6-6 6"></path>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Modal Detail Proyek Interaktif -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content glass-panel">
+      <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="Tutup detail">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-img-box">
+        <img id="modal-img" src="" alt="Pratinjau Proyek">
+      </div>
+
+      <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.75rem; margin-bottom: 0.5rem;">
+        <span id="modal-category" style="color: var(--highlight); font-weight: 700; text-transform: uppercase;"></span>
+        <span id="modal-date" style="color: var(--text-muted);"></span>
+      </div>
+
+      <h3 id="modal-title" style="font-size: 1.35rem; color: #FFFFFF; margin-bottom: 0.75rem;"></h3>
+      <p id="modal-desc" style="font-size: 0.9rem; color: rgba(224, 242, 254, 0.9); line-height: 1.6; margin-bottom: 1.25rem;"></p>
+
+      <div style="margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--highlight); font-weight: 800; margin-bottom: 0.6rem;">
+          Dampak Operasional &amp; Metrik
+        </h4>
+        <div id="modal-metrics" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.65rem;"></div>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #FFFFFF; font-weight: 800; margin-bottom: 0.6rem;">
+          Tanggung Jawab &amp; Hasil Utama
+        </h4>
+        <ul id="modal-highlights" style="list-style: none; padding: 0;"></ul>
+      </div>
+
+      <div style="padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.08); font-size: 0.75rem; color: var(--text-muted);">
+        <strong style="color: #FFFFFF;">Kompetensi: </strong>
+        <span id="modal-tags"></span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
